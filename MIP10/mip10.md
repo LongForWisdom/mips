@@ -33,7 +33,7 @@ Replaces: n/a
 **[MIP10c18-Subproposal-Template.md](MIP10c18-Subproposal-Template.md)**    
 **[MIP10c19-Subproposal-Template.md](MIP10c19-Subproposal-Template.md)**    
 **[MIP10c20-Subproposal-Template.md](MIP10c20-Subproposal-Template.md)**  
-**[MIP10c21-Subproposal-Template.md](MIP10c21-Subproposal-Template.md)**
+**[MIP10c21-Subproposal-Template.md](MIP10c21-Subproposal-Template.md)**  
 
 ## Sentence Summary
 
