@@ -57,10 +57,8 @@ Although this is only one component of the overall collateral onboarding process
     
 
 2.  After the submission on the forum, the community will likely have follow up questions. While not a requirement, answering questions about your project may help generate support or excitement for the proposed collateral type. Additionally, the interested party may organize an optional call to pitch their proposal as well as open up further discussion to the community. 
-    
-3.  Once the application has been submitted to the forum, it is eligible for Domain Greenlight as defined in MIP8.
 
-4.  After two weeks of discussion have passed, and Domain Greenlight (MIP8) has been completed, the application is eligible to move to the Community Greenlight poll defined in MIP9.
+3.  After two weeks have passed from the date of the MIP6 application's submission to the forum, the application is eligible for a Community Greenlight poll defined in MIP9.
     
 
 ### Overall Process Overview Diagram
