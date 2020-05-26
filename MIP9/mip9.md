@@ -61,6 +61,7 @@ While domain teams are free to choose their own workload, an on-chain governance
 - The community greenlight poll for the potential collateral asset ends with more **greenlight** votes than **rejected** votes.
 - The potential collateral asset is marked as having been **greenlit** by the community.
 - Domain teams may feel confident in allocating time to work on the potential collateral asset.
+- Potential collateral asset is now eligible for the domain greenlight process defined in MIP8.
 
 **Rejected**  
 - The community greenlight poll for the potential collateral asset ends with more **rejected** votes than **greenlight** votes.
