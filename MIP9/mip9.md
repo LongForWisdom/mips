@@ -10,7 +10,7 @@ Type: Process
 Status: Request for Comments (RFC)
 Date Proposed: 2020-04-06
 Date Ratified: <yyyy-mm-dd>
-Dependencies: MIP6, MIP8
+Dependencies: MIP6
 Replaces: n/a
 ```
 
@@ -27,10 +27,16 @@ This proposal aims to standardize the process for allowing MKR Token Holders to 
 
 ## Component Summary
 
-**MIP9c1: The Community Greenlight Requirements and Process**  
-Defines the process, requirements and possible outcomes from Community Greenlight process and the Governance Facilitators responsibilities in its operation.
+**MIP9c1: The Community Greenlight Process**  
+Defines the community greenlight process and its interaction with the collateral onboarding process.
 
-**MIP9c2: Community Greenlight Poll Template**  
+**MIP9c2: The Community Greenlight Outcomes**  
+Defines the possible outcomes from the community greenlight process.
+
+**MIP9c3: The Community Greenlight Requirements**  
+Defines the resposibilities of the Governance Facilitators in the community greenlight process. 
+
+**MIP9c4: Community Greenlight Poll Template**  
 Defines a governance poll template to be used in the on-chain Community Greenlight poll.
 
 ## Motivation
@@ -40,36 +46,37 @@ While domain teams are free to choose their own workload, an on-chain governance
 
 ## Specification / Proposal Details
 
-In this stage, the Governance Facilitator (GF) will create an on-chain governance poll in the template format defined in MIP9c2 and the community will vote with their preferences.
-
-### MIP9c1: The Community Greenlight Requirements and Process
-
-1.  The process begins when an interested party (collateral type proposer) informs the Governance Facilitator(s) that the collateral application process has reached the Community Greenlight phase.
-	- The collateral form (MIP6) has been submitted to the forum and/or has received Domain Greenlight approval (MIP8) from each of the domain teams (smart contracts, risk and oracles).
-2.  From then on, the Governance Facilitator(s) are responsible for creating a Community Greenlight Poll for the collateral type in question.
-	- Note that an individual approval poll is created for each collateral asset. This poll will use the format defined in MIP9c2 (Governance Poll Template), using ETH as an example collateral type.
-	- Community Greenlight Polls occur at a fixed time each governance cycle, starting on the 4th Monday of the month and running for a period of 2 weeks.
-3.  The Governance Facilitator(s) are responsible for maintaining a list of collaterals based on the outcome of the individual Community Greenlight Polls. This list should include collateral types that have both passed and failed to pass their Community Greenlight Polls.
-4.  The collateral assets in the polls will be listed and ranked based on their score. As noted above (3), the list includes the collateral types that have both passed and failed to pass in the Community Greenlight Polls. It's important to include assets that have failed (negative score) to still be considered based on the domain teams judgment call, because you could have situations where competitors are trying to use MKR to suppress each other's assets in order to get a competitive edge and thus, unfairly put them at a disadvantage by denying them funding from Maker.
-5.  Any collateral asset that has passed MIP8, and not had any of its MIP8 greenlight approvals revoked again, including assets that have already had a greenlight poll before, will be included in the MIP9 community greenlight polls, except when for technical reasons there is not enough capacity to hold all the votes, in which case the governance facilitator decides the most important assets to include, prioritizing those that haven't had a vote before.
-    
-**Important Note:** MIP9 may happen in parallel with MIP8 (Domain Greenlight).
-
-**Key Outcomes from the Governance Poll**
-
--   Once the Community Greenlight Poll is complete. The Domain teams proceed to perform their respective work defined in their mandates.
-	-   **Example:** The Smart contracts team will build the collateral adaptor and the risk team will build their risk construct for the specified collateral type.
--   If the Community Greenlight Poll passes and Domain Greenlight (MIP8) fails in one or more domains, the community must find a substitute for the rejecting domain teams before this process can proceed.
--   If the Community Greenlight Poll fails the Domain teams are free to work on the collateral if they hold confidence that governance will approve it in the future.
-    
+### MIP9c1: The Community Greenlight Process
+- For an asset to be onboarded to the Maker Protocol, it must pass a MKR vote. Community greenlight is the process through which early sentiment is measured and used to direct the work of domain teams towards assets that MKR Holders will be willing to onboard after work has been completed.
+- The community greenlight process for a potential collateral asset consists of an on-chain governance poll using the template defined in MIP9c4. 
+- The community greenlight polls occur at a fixed time each governance cycle, starting on the 4th Monday of the month and running for a period of 2 weeks.
+- A potential collateral asset is valid for a community greenlight poll if it has a MIP6 Application that has been published on the official forum for a period of of 2 weeks prior to the community greenlight poll start date.
 
 ### Overall Process Overview Diagram
 
 <img width="686" alt="mip9" src="https://user-images.githubusercontent.com/32653033/79087697-23b06b80-7d0e-11ea-8411-82d6b4f0a0e5.png">
 
+### MIP9c2: The Community Greenlight Outcomes
+**Greenlit**  
+- The community greenlight poll for the potential collateral asset ends with more **greenlight** votes than **rejected** votes.
+- The potential collateral asset is marked as having been **greenlit** by the community.
+- Domain teams may feel confident in allocating time to work on the potential collateral asset.
+
+**Rejected**  
+- The community greenlight poll for the potential collateral asset ends with more **rejected** votes than **greenlight** votes.
+- The potential collateral asset is marked as having been **rejected** by the community.
+- Domain teams may still choose to work on a collateral type that has been **rejected** if they are confident that governance will approve future inclusion.
+- Community greenlight polls for assets that have been **rejected** can be rerun in the future at the discretion of the Governance Facilitators.
+
+### MIP9c3: The Community Greenlight Requirements
+- The Governance Facilitators are responsible for creating a Community Greenlight Poll for each valid potential collateral asset each month.
+- If a previously rejected potential collateral asset is included in the monthly greenlight polls a reason must be communicated to the community via the official forum before the greenlight poll takes place.
+- The Governance Facilitators are responsible for maintaining a list of collaterals based on the outcome of the individual Community Greenlight Polls. This list should include collateral types that have both passed and failed to pass their Community Greenlight Polls.
+- At the Governance Facilitators discretion community greenlight polls may be deferred to later months.
+- If the Governance Facilitators opt to defer community greenlight polls a reason must be communicated to the community via the official forum before the greenlight poll takes place.
 
 ---
-### MIP9c2: Community Greenlight Poll Template 
+### MIP9c4: Community Greenlight Poll Template 
 
 In this template, the asset ETH is used as an example. 
 
@@ -79,13 +86,13 @@ Additional informational material or reference links may be added to the poll co
 MIP9 Community Greenlight Poll: ETH (Ether)
 
 **Description**  
-If passed, this poll is to be taken as a signal to domain teams that MKR Token Holders have approved further domain work with the aim of adding ETH (Ether) as a collateral asset to the Maker Protocol.  
+If greenlight votes exceed reject votes, this poll is to be taken as a signal to domain teams that MKR Token Holders have approved further domain work with the aim of adding ETH (Ether) as a collateral asset to the Maker Protocol.  
 
 **Duration**  
 2 weeks
 
 **Poll Options**  
-Yes  
-No
+Greenlight  
+Reject
 
 ---
