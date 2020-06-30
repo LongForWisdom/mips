@@ -3,7 +3,7 @@
 ## Preamble
 ```
 MIP4c2-SP#: #
-MIP to be amended: <MIP#>
+MIP(s) to be amended: <MIP#>
 Author(s):
 Contributors:
 Status:
@@ -13,9 +13,12 @@ Date of ratification: <yyyy-mm-dd>
 ## Specification
     
 ### Motivation
+   - A clear statement of either:
+       - The single change being made.
+       - The single MIP being amended.
    - Explanation behind the amendment of the MIP
    - Explanation of why this change is valid for an amendment rather than a replacement.
-   - Any impact this has on other MIPs that interact with the MIP in question. 
+   - Any impact this has on other MIPs that interact with the MIP(s) in question. 
 
 ### Amended Components
    - A list of the components that have been amended.
