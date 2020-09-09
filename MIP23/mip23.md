@@ -15,7 +15,9 @@ Replaces: n/a
 ```
 
 ## References
-None provided.
+**[MIP23c4-Domain-Definition-Template](MIP23c4-Domain-Definition-Template.md)**  
+**[MIP23c4-Domain-Offboarding-Template](MIP23c4-Domain-Offboarding-Template.md)**  
+**[MIP23c4-Domain-Onboarding-Template](MIP23c4-Domain-Onboarding-Template.md)**  
 
 ## Sentence Summary
 
@@ -107,8 +109,8 @@ It is proposed that each domain operating under the Maker Protocol is defined wi
 * Domain Facilitator Removal Criteria - A list of the criteria under which a Domain Facilitator should be removed. 
 * Domain Facilitator List - A list of Domain Facilitators within this Domain.
 * Domain Contributors List - A list of Domain Contributors within this Domain.
-* Facilitator Onboarding Process Component - A component that allows for the onboarding of a Domain Facilitator within this domain.
-* Facilitator Offboarding Process Component - A component that allows for the offboarding of a Domain Facilitator within this domain.
+* Facilitator Onboarding Component - A process component that allows for the onboarding of a Domain Facilitator within this domain.
+* Facilitator Offboarding Component - A process component that allows for the offboarding of a Domain Facilitator within this domain.
 
 ---
 
