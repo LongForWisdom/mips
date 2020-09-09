@@ -70,7 +70,7 @@ The second role is known as the Domain Contributors. This position is a working 
 
 ### MIP23c2: Domain Facilitators
 
-The Domain Facilitators take responsibility for the success of MakerDAO as it relates to their domain. They will outsource to their Domain Contributors such that the required work is completed and domain reponsibilities are fulfilled. Additionally, they will agressively transfer knowledge and attempt to grow the pool of personnel that can effectively work within their domain.
+The Domain Facilitators take responsibility for the success of MakerDAO as it relates to their domain. They will complete domain work themselves, or outsource to their Domain Contributors in order to fulfil their reponsibilities. Additionally, they will agressively transfer knowledge and attempt to grow the pool of personnel that can effectively work within their domain.
 
 Each domain will have its own specific requirements and responsibilites, but it is suggested that domain facilitors keep the following principles in mind at all times:
 * Transparency - Be clear and upfront with the activities within the domain. Make every effort to inform Maker Governance of current work, issues, and concerns.
