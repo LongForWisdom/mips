@@ -98,6 +98,8 @@ It is recommended that the Domain Facilitators attempt to cultivate and recruit 
 
 The Domain Contributor role within any domain is not an elected role. Instead, an individual or team is officially labelled a Domain Contributor when domain work of theirs is approved by a Domain Facilitator. At this point, the Domain Contributor must provide a name or pseudonym, coupled with a brief paragraph describing their qualifications, experience or interest in the Maker Protocol. A list of Domain Contributors will be maintained within the domain definition MIP for that domain by the Domain Facilitators.
 
+A team of individuals may also represent themselves collectively as a Domain Contributor if they desire to do so.
+
 ---
 
 ### MIP23c4: Domain Definition MIPs
@@ -128,5 +130,7 @@ When a Domain Definition MIP is Accepted for an active domain (Smart Contracts, 
 * The MIP Editors will use their discretion when making the above changes with the aim of matching the intention of the transition to existing MIPs to the fullest extent possible.
 
 Once Domain Definition MIPs have been produced for the Oracle, Risk, and Smart Contracts domains, MIP7 should be moved to deprecated status by the MIP Editors and should no longer be considered active or usable. At that stage, any reference to MIP7 within other MIPs should be modified to reference the appropriate Domain Definition MIP by the MIP Editors.
+
+In the case that there is no MIP Editor, the Governance Facilitator(s) should make the above changes to the MIPs as described.
 
 ---
